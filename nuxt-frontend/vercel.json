@@ -1,7 +1,0 @@
-{
-    "functions": {
-      "api/joycoach.ts": {
-        "maxDuration": 30
-      }
-    }
-  }

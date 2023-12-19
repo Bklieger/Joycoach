@@ -28,4 +28,11 @@ export default defineNuxtConfig({
       BACKEND_URL: process.env.NUXT_BACKEND_URL
     },
   },
+  nitro: {  
+    vercel: {  
+      functions: {  
+        maxDuration: 30,  
+      },  
+    },  
+  },
 });
