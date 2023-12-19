@@ -24,4 +24,4 @@ COPY entrypoint.sh .
 RUN chmod +x ./entrypoint.sh
 
 # Run the entrypoint script when the container starts
-CMD ["./entrypoint.sh"]
+CMD ["./railway.entrypoint.sh"]
