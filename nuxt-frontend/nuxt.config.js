@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
-  ssr: false,
+  serverMiddleware: [
+    '~/server/api/joycoach.ts'
+  ],
   app: {
     head: {
       title: "Nuxt App",
