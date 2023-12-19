@@ -1,6 +1,6 @@
 {
     "functions": {
-      "/api/joycoach": {
+      "./server/api/joycoach": {
         "maxDuration": 30
       }
     }
