@@ -136,7 +136,7 @@ async function fetchJoyCoachData() {
     console.log('Fetching data...')
     console.log(JSON.stringify({ message: msg.value }))
 
-    const response = await fetch('/api/joycoach', {
+    const response = await fetch('https://coach.up.railway.app/api/joycoach', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
