@@ -22,5 +22,5 @@ RUN npm run build
 EXPOSE 3000
 
 # Define the command to run the app
-CMD [ "node", ".output/server/index.mjs" ]
-# CMD [ "npm", "run","preview" ] # For logs when debugging
+# CMD [ "node", ".output/server/index.mjs" ]
+CMD [ "npm", "run","preview" ] # For logs when debugging
