@@ -1,6 +1,6 @@
 {
     "functions": {
-      "joycoach.ts": {
+      "*.ts": {
         "maxDuration": 30
       }
     }
