@@ -21,7 +21,7 @@ COPY . .
 COPY entrypoint.sh .
 
 # Give the execution permissions to the entrypoint script
-RUN chmod +x ./entrypoint.sh
+RUN chmod +x ./railway.entrypoint.sh
 
 # Run the entrypoint script when the container starts
 CMD ["./railway.entrypoint.sh"]
