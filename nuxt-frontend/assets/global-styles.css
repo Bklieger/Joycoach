@@ -1,0 +1,44 @@
+/* Centering container for Textarea */
+.textarea-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .title-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    width: 60%; /* Match width of textarea */
+    margin: 0 auto; /* Center the container */
+  }
+  
+
+  .error-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    width: 60%; /* Match width of textarea */
+    margin: 0 auto; /* Center the container */
+  }
+
+
+  .response-container {
+    display: flex;
+    justify-content: center;
+    width: 60%; /* Match width of textarea */
+    margin: 0 auto; /* Center the container */
+  }
+  
+
+
+/* Style for all Textarea components */
+textarea {
+border: 1px solid #bbb; /* Example border style */
+/* Add any other styles you want for the Textarea */
+}

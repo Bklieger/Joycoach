@@ -1,0 +1,7 @@
+node_modules
+.nuxt
+dist
+.DS_Store
+.git
+.gitignore
+npm-debug.log
