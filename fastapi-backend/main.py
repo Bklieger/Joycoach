@@ -266,7 +266,7 @@ async def get_openai_joycoach_completion(message: str, api_key: str = Depends(va
         custom_situation = message
 
         response = openai.ChatCompletion.create(
-            model="gpt-4-0613",
+            model="gpt-4",
             messages=[
                 {
                 "role": "system",
@@ -278,7 +278,7 @@ async def get_openai_joycoach_completion(message: str, api_key: str = Depends(va
                 }
             ],
             temperature=0.2,
-            max_tokens=1642,
+            max_tokens=3000,
             top_p=1,
             frequency_penalty=0,
             presence_penalty=0
